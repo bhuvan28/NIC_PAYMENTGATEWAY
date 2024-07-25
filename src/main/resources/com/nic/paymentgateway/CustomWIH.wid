@@ -1,0 +1,21 @@
+[
+  [
+    "name" : "CustomTask", 
+    "parameters" : [ 
+        "Statecode" : new StringDataType(),
+        "Paymentgateway" : new StringDataType(),
+        "Nicmerchantcode": new StringDataType(),
+        "Transactionno": new StringDataType()
+    ], 
+    "results" : [ 
+        "Amount" : new IntegerDataType(),
+        "Exempted" : new IntegerDataType(),
+        "Rebate"   : new IntegerDataType(),
+        "Surcharge": new IntegerDataType(),
+        "Penality" :  new IntegerDataType(),
+        "Interest" : new IntegerDataType()
+    ], 
+    "displayName" : "Custom WIH Task", 
+    "icon" : "" 
+  ]
+]
